@@ -7,6 +7,7 @@ async function startup() {
     await webServer.initialize();
   } catch (err) {
     console.error(err);
+console.log("1");
 
     process.exit(1); // Non-zero failure code
   }
